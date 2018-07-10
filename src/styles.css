@@ -1,4 +1,16 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+div[id="root"] {
+  width: 100%;
+}
+
+body {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(229, 177, 58);
+  background: black;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  overflow: hidden;
 }
