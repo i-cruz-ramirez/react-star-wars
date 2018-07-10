@@ -11,4 +11,5 @@ function App() {
   return <IntroComponent />;
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const component = document.getElementById("root");
+ReactDOM.render(<App />, component);
