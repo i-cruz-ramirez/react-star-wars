@@ -1,7 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import IntroComponent from "./intro/IntroComponent";
-import { TweenLite } from "gsap";
+import ExtractComponent from "./extract/ExtractComponent";
+import LogoComponent from "./logo/LogoComponent";
 
 import "./styles.css";
 
