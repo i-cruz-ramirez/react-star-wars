@@ -1,16 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import IntroComponent from "./intro/IntroComponent";
+import ExtractComponent from "./extract/ExtractComponent";
+import LogoComponent from "./logo/LogoComponent";
+import { TweenLite } from "gsap";
 
 import "./styles.css";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
-    </div>
-  );
+  return <IntroComponent />;
 }
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+ReactDOM.render(<App />, document.getElementById("root"));
