@@ -10,10 +10,8 @@ export default class Intro extends Component {
 
   render() {
     return (
-      <section className="container">
-        <section className="intro" ref={this.props.reff}>
-          <p> A long time ago</p>
-        </section>
+      <section className="intro" ref={this.props.reff}>
+        <p> A long time ago</p>
       </section>
     );
   }
