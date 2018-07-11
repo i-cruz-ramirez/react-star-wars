@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import IntroComponent from "./intro/IntroComponent";
-import ExtractComponent from "./extract/ExtractComponent";
-import LogoComponent from "./logo/LogoComponent";
+import IntroComponent from "./components/intro/IntroComponent";
+import ExtractComponent from "./components/extract/ExtractComponent";
+import LogoComponent from "./components/logo/LogoComponent";
 
 import "./styles.css";
 
