@@ -1,0 +1,9 @@
+.intro {
+  transform: translate(-50%, -50%);
+  z-index: 200;
+}
+
+.intro p {
+  color: rgb(75, 213, 238);
+  font-size: 1.25rem;
+}
