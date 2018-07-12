@@ -6,8 +6,8 @@ A simple react app that shows the iconic Star Wars movies intro
 
 ### Prerequisites
 
-- Docker
-- NPM
+- docker
+- npm (only-development)
 
 ## Running
 
