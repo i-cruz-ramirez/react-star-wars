@@ -11,6 +11,10 @@ WORKDIR /app
 ADD package.json /app
 ADD . /app
 
+# Install dependences.
+RUN npm install
+
+# Run build
 RUN npm run build --production
 
 # Install `serve` to run the application.
