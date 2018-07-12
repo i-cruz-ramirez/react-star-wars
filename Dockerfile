@@ -11,6 +11,13 @@ WORKDIR /app
 ADD package.json /app
 ADD . /app
 
-EXPOSE 8080
+RUN npm run build --production
 
-CMD [ "npm", "run", "serve" ]
+# Install `serve` to run the application.
+RUN npm install -g serve
+
+# Set the command to start the node server.
+CMD serve -s build
+
+# Tell Docker about the port we'll run on.
+EXPOSE 5000

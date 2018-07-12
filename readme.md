@@ -18,10 +18,10 @@ Explain what these tests test and why
 ``` #!/bin/bash
 - cd path/project
 - docker build -t isaac-cruz/star-wars-react .
-- docker run -p 5001:8080 -d isaac-cruz/star-wars-react
+- docker run -d -p 5000:5000 isaac-cruz/star-wars-react
 ```
 
-Go to http://localhost:5001
+Go to http://localhost:5000
 
 ### Development
 
