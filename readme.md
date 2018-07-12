@@ -2,8 +2,8 @@
 
 ## Run with docker
 
-docker build -t star-wars-react .
-docker run -it -p 3000:8080 --rm star-wars-react
+docker build -t isaac-cruz/star-wars-react .
+docker run -p 8080:8080 -d isaac-cruz/star-wars-react
 
 ## Run locally
 
