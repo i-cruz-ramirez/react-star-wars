@@ -16,6 +16,7 @@ A simple react app that shows the iconic Star Wars movies intro
 Explain what these tests test and why
 
 ``` #!/bin/bash
+- cd path/project
 - docker build -t isaac-cruz/star-wars-react .
 - docker run -p 5001:8080 -d isaac-cruz/star-wars-react
 ```
