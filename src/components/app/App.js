@@ -8,12 +8,11 @@ import Logo from "../logo/Logo";
 import "./App.css";
 
 export default class App extends Component {
-  state = {
-    numStars: 300
-  };
 
   constructor(props) {
     super(props);
+    this.state = { numStars: 300 }
+
     this.root = React.createRef();
     this.extract = React.createRef();
     this.intro = React.createRef();

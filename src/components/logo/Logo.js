@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Power2, TimelineLite } from "gsap";
 
 import "./Logo.css";
+import logo from "./logo.png";
 
 export default class Logo extends Component {
   constructor(props) {
@@ -11,7 +12,7 @@ export default class Logo extends Component {
   render() {
     return (
       <section className="logo" ref={this.props.reff}>
-        <img src="/images/logo.png" alt="Code Wars logo" />
+        <img src={logo} alt="Code Wars logo" />
       </section>
     );
   }
