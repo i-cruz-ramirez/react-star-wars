@@ -21,6 +21,8 @@ Explain what these tests test and why
 - docker run -p 5001:8080 -d isaac-cruz/star-wars-react
 ```
 
+Go to http://localhost:5001
+
 ### Development
 
 ``` #!/bin/bash
